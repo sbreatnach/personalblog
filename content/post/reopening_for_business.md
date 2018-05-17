@@ -5,7 +5,6 @@ categories:
   - General
 tags:
   - Ramblings
-draft: true
 ---
 
 Oof, it's been a while. I've been avoiding blogging for a while. It was lots of effort and I had other priorities. This time it will be different.
