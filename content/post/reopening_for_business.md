@@ -1,10 +1,10 @@
 ---
 title: "Reopening for business"
 date: 2018-05-16T21:34:50+01:00
-categories:
-  - General
 tags:
   - Ramblings
+categories:
+  - General
 ---
 
 Oof, it's been a while. I've been avoiding blogging for a while. It was lots of effort and I had other priorities. This time it will be different.

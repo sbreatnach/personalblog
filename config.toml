@@ -2,6 +2,8 @@ baseURL = "https://somethinginterestinghere.com/"
 languageCode = "en-ie"
 title = "[Something Interesting Here]"
 theme = "mainroad"
+disqusShortname = "something-interesting-here"
+googleAnalytics = "UA-20135603-1"
 
 [author]
   name = "Shane Breatnach"
