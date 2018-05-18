@@ -1,0 +1,20 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: sbreatnach/hugo:1.0.0
+    steps:
+      - checkout
+      - run:
+          name: Compile site
+          command: hugo
+      - run:
+          name: Prep site zip
+          command: cd public && zip -r site.zip *
+      - run:
+          name: Push site to Netlify
+          command: |
+              curl -H 'Content-Type: application/zip' --data-binary @public/site.zip \
+                  https://api.netlify.com/api/v1/${SITE_ID}/deploys?access_token=${NETLIFY_TOKEN}
+          environment:
+            SITE_ID: 1e172c50-3c89-45f2-9a88-a8b10f6fb825
