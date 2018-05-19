@@ -10,6 +10,6 @@ jobs:
           command: hugo
       - run:
           name: Push site to Netlify
-          command: netlifyctl deploy -y -A ${NETLIFY_TOKEN} -s ${SITE_ID} -b public/
+          command: cd public && netlifyctl deploy -y -A ${NETLIFY_TOKEN} -s ${SITE_ID}
           environment:
             SITE_ID: www.somethinginterestinghere.com

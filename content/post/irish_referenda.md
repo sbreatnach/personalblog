@@ -7,7 +7,7 @@ categories:
   - General
 ---
 
-The referendum on the 8th amendment of the Irish constitution is due on the 25th of May. This amendment, for all intents and purposes, banned abortion in Ireland. 
+The [referendum on the 8th amendment](https://refcom2018.refcom.ie) of the Irish constitution is due on the 25th of May. This amendment, for all intents and purposes, banned abortion in Ireland.
 
 It's a heated topic here as much as it is anywhere else in the world. For my part, I'll be voting to repeal the amendment but I'm not going to get into that now. My beef is really with what's going to happen if the referendum does end up changing the constitution.
 
