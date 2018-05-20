@@ -18,4 +18,4 @@ There used to be regular televised coverage of the afore-mentioned semi-pro team
 
 When I played my shootaround, some preteen kids hassled me (cos that's what kids do when they're bored) to play soccer instead on the court. Never mind the huge green area all around the court, they wanted to use the court 🙄. Anyway, they had never played basketball. They had never heard of the NBA. They had never seen basketball played to a high-level. 
 
-I realise I haven't directly answered the question I made up top: why so long since the last time I played? But I sort of have answered it: because there are no virtually facilities and very few people would ever want to play. That is a sad state of affairs.
+I realise I haven't directly answered the question I made up top: **why so long since the last time I played?** But I sort of have answered it: because there are no virtually facilities and very few people would ever want to play. That is a sad state of affairs.
