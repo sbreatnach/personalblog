@@ -11,6 +11,8 @@ categories:
 
 *Unheralded: where I wax lyrical about music that you probably haven't heard before*
 
+<!--more-->
+
 The oppressive atmosphere starts early: a grim excerpt, an interview with somebody describing a nuclear explosion. Usually a hackneyed technique, it works really well for [Ufomammut's Braindome](https://www.youtube.com/watch?v=YUGq_MabZa0).
 
 The highlights are many: the pounding, driving hammer to the head that are the drums, a tearing guitar that's fuzzified to the max, and the evocative atmosphere that permeates through every note of the song.
