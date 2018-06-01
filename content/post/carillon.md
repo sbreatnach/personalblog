@@ -1,13 +1,12 @@
 ---
 title: "Simple Linux keyboard switching: Carillon"
-date: 2018-05-31T09:22:58+01:00
+date: 2018-06-01T09:22:58+01:00
 tags:
   - Carillon
   - Keyboards
   - Linux
 categories:
   - Technical
-draft: true
 ---
 
 As part of my work on my custom Linux distribution, I needed an application that:
