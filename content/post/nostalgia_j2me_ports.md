@@ -15,7 +15,7 @@ A recent post about finding the keyboard shortcut for [debug mode in Animal Cros
 
 ### Upstart Games
 
-Upstart Games was my first job out of university, where I still held hopes of working in the computer game industry. It was the closest I came to this goal before I was turned off by the crazy stories filtering back to me via the interwebs (e.g. [EA spouse](https://ea-spouse.livejournal.com/274.html)).
+Upstart Games was my first job out of university, when I still held hopes of working in the computer game industry. It was the closest I came to this goal before I was turned off by the crazy stories filtering back to me via the interwebs (e.g. [EA spouse](https://ea-spouse.livejournal.com/274.html)).
 
 Upstart wasn't like the fancy-dan companies doing "real" games, like EA, Ubisoft, et al. We had business connections to a number of Japanese game companies and, for a one-off fee, we took the original codebase used with Japanese phones and ported them to European phones. Japan had a booming mobile game industry at the time (2004 approximately) based on some superb mobile phones that were years ahead of the dross in Europe. Remember, this predates the iPhone by some margin; Nokia and Motorola were the dominant brands and they were, for gaming at least, atrocious software platforms.
 
