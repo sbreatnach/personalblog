@@ -3,6 +3,7 @@ title: "Why is soccer so dull?"
 date: 2018-06-17T06:55:11+01:00
 tags:
   - Soccer
+  - World Cup 2018
 categories:
   - Sport
 ---
