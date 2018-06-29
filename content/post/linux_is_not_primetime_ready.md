@@ -23,4 +23,4 @@ As a rule of thumb, I upgrade my LTS every week to get latest security fixes and
 * Unable to boot on Macbook (GRUB reconfiguration failure)
 * Unable to upgrade Virtualbox (incompatible kernel header changes)
 
-I could go on (there aren't any issues with the workstation cos I barely use it, btw). If I wasn't knowledgeable about Linux and software development in general, any one of these issues would've completely stymied me. The average person on the street, or even the average person working in a technical company, does not have this knowledge. For people like me, Linux is a viable alternative. Everybody else, you're stuck with MacOS and Windows. Sorry!
+I could go on. If I wasn't knowledgeable about Linux and software development in general, any one of these issues would've completely stymied me. The average person on the street, or even the average person working in a technical company, does not have this knowledge. For people like me, Linux is a viable alternative. Everybody else, you're stuck with MacOS and Windows. Sorry!
