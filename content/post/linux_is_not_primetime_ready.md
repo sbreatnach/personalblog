@@ -6,7 +6,6 @@ tags:
   - DistroD
 categories:
   - Technical
-draft: true
 ---
 
 Browsing the [HackerNews thread](https:d//news.ycombinator.com/item?id=17413572) on a recent article criticising Apple keyboards, I was amused by a common discussion that always crops up on a subject like this: is Linux a viable alternative to Mac OS? To which the answer is always the same: no. But why is that?
