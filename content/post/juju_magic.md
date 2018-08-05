@@ -33,6 +33,6 @@ A few points of explanation:
 
 * Note the use of /snap/bin as a prefix otherwise your shell won't find the binaries by default. Unless you run them as sudo, but this can lead to it's own issues.
 * The default bridge LXD generates adds IPv6 support, but this is not supported by Juju and the bootstrap immediately errors unless you disable IPv6.
-* The local firewall had to be disabled because Juju's controller is blocked from accessing the host LXD API otherwise. I haven't determined the precise rule needed to enable this because there is 0 documentation around the controller requirements (in the tutorial at least).
+* The local firewall had to be disabled because Juju's controller is blocked from accessing the host LXD API otherwise. I haven't determined the precise rule needed to enable this because there is 0 documentation around the controller requirements (in the tutorial at least). UPDATE: it seems like only port 8443 needs to be opened.
 
 I got there eventually, but I very nearly gave up a number of times. Only the promise of what Juju offers kept me going. Plus, my personal motto is ["Never give up, never surrender"](https://www.youtube.com/watch?v=SJ2hJezvd2I).
