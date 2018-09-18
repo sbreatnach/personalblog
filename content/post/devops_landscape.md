@@ -7,7 +7,7 @@ draft: true
 ---
 
 The devops tooling landscape is wide and complex, with many offerings having differing and overlapping functionality. As such, it can be difficult to determine exactly how useful each is to you for your use case. Highly generic terms are scattered around the websites for these tools:
-* Infrastructure-as-a-Service (IaaS),
+* Infrastructure-as-sa-Service (IaaS),
 * Platform-as-a-Service (PaaS),
 * provisioning,
 * automation,
