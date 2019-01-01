@@ -1,6 +1,6 @@
 ---
 title: "My local DNS server setup"
-date: 2018-12-31T21:42:34+01:00
+date: 2019-01-01T13:42:34+01:00
 tags:
   - Software
   - Self-hosted
