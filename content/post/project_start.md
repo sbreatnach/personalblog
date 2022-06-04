@@ -17,17 +17,19 @@ When starting a new software service that will be used by a wide audience, there
 ## Web Handling
 
 * Use RESTful APIs for all but the most specialised APIs. They are the most portable, easiest to document and are universally usable (even by microcontrollers!).
-* Support PATCH, PUT and DELETE verbs, even in obscure proxy environments.
+* Support HEAD, PATCH, PUT and DELETE verbs, even in obscure proxy environments.
 * Try to follow RESTful principles.
-* Version every API.
+* Use HTTP status codes correctly - they are the closest to a universal error code system you will find.
+* Version every API, internal and external.
 * Every API should log who and where connections are coming from. This is invaluable when you're trying to find out who's consuming the API.
+* Internal API consumers should send extra HTTP headers to identify themselves.
 
 ## External Integrations
 
 * Every outgoing connection from a service must have a timeout.
 * Every outgoing connection must have a retry mechanism.
 * Every retry has an upper limit of attempts by default to work around blips in the external service.
-* A retry may be configured as never-ending - useful for batch processing.
+* A retry may be configured as never-ending - useful for batch processing or recovering DB connectivity
 * Every retry must have an exponential back-off timer.
 * Every retry can be cancelled.
 * Every retry should have configurable jitter.
@@ -46,13 +48,26 @@ When starting a new software service that will be used by a wide audience, there
 * Use structured logging (but not at the cost of difficult to read logs).
 * Sanitise logs to remove sensitive information (e.g. emails, passwords.
 * Have trace level logging to support debugging live systems.
+* Trace log health pings to reduce noise.
 * Gather system logs external to your service.
 * Use a logging backend that collates logs from all parts of the system.
 * The logging backend should take advantage of structured logs.
+* Retain one month of trace log data, at a minimum three months of logs for all other levels.
 
-Monitoring
+## Monitoring
 
-Data Stores
+* Always have a health endpoint
+* The health endpoint should fail if any required infrastructure is inaccessible.
+* Always include a metrics collection system
+* Decide on a naming convention for metrics data points that is documented
+* Use a metrics gathering system external to your main project.
+* Have a sepate metrics gathering system for the main metrics gathering system (quis custodiet ipsos custodes?) and basic sanity checks.
+
+Data Management
+
+* Always have backups, at a minimum avaiable in two independent locations
+* Build a system for copying sanitised production data to other environments, optionally sampled to be usable in local development environments.
+* Use the backups and sanitisation system to test backups regularly
 
 Infrastructure Management
 
