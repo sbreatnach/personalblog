@@ -1,0 +1,33 @@
+name: Redeploy Site
+on:
+  push:
+    branches:
+      - master
+jobs:
+  Redeploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v3
+      - run: git submodule update --init
+      - name: Install hugo
+        run: |
+          curl -L https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz | \
+            tar -xz
+          sudo install hugo /usr/bin
+        env:
+          HUGO_VERSION: "0.111.3"
+      - name: Install netlifyctl
+        run: |
+          curl -L https://github.com/netlify/netlifyctl/releases/download/v${NETLIFY_VERSION}/netlifyctl-linux-amd64-${NETLIFY_VERSION}.tar.gz | \
+            tar -xz
+          sudo install netlifyctl /usr/bin
+        env:
+          NETLIFY_VERSION: "0.4.0"
+      - name: Compile site
+        run: hugo
+      - name: Push site to Netlify
+        run: cd public && netlifyctl deploy -y -A ${NETLIFY_TOKEN} -s ${SITE_ID} -b .
+        env:
+            NETLIFY_TOKEN: ${{ secrets.NetlifyToken }}
+            SITE_ID: www.somethinginterestinghere.com
