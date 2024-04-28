@@ -5,15 +5,15 @@ theme = "mainroad"
 disqusShortname = "something-interesting-here"
 googleAnalytics = "UA-20135603-1"
 
-[author]
-  name = "Shane Breatnach"
-  bio = "He's just this guy, y'know?"
-  avatar = "img/shane.jpg"
-
 [Params]
   subtitle = "(maybe something about music, or sport, or computers?)"
   description = "Shane Breatnach's personal blog"
   readmore = true
+
+[Params.author]
+  name = "Shane Breatnach"
+  bio = "He's just this guy, y'know?"
+  avatar = "img/shane.jpg"
 
 [Params.widgets]
   search = true
